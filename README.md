@@ -1,2 +1,3 @@
-# groot-eclipse-preferences
-Convenient package for storing eclipse preferences (many versions).
+# Groot Eclipse Preferences
+
+Convenient package for storing eclipse preferences (multiple versions).

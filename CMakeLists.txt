@@ -3,14 +3,12 @@
 ##############################################################################
 
 cmake_minimum_required(VERSION 2.8.3)
-project(groot-eclipse-preferences)
+project(groot_eclipse_preferences)
 
 ##############################################################################
 # Installs
 ##############################################################################
 
-install(FILES
-            neon.epf
-        DESTINATION
-            ${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}
-        )
+STRING(REPLACE "_" "-" DASHED_PROJECT_NAME ${PROJECT_NAME})
+
+install(DIRECTORY neon DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${DASHED_PROJECT_NAME})

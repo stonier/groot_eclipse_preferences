@@ -4,9 +4,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## [Unreleased]
 ### Added
+- .rst to use the rest editor plugin
+- dictionary, code, style templates
 - ...
 
 ### Changed
+- restore CMakeLists.txt, .launch, .xml to use their own editors after bombed by leclipse
 - ...
 
 ## [0.1.0] - 2017-01-30

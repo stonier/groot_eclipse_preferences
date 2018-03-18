@@ -9,6 +9,7 @@ project(groot_eclipse_preferences)
 # Installs
 ##############################################################################
 
-STRING(REPLACE "_" "-" DASHED_PROJECT_NAME ${PROJECT_NAME})
+string(REPLACE "_" "-" DASHED_PROJECT_NAME ${PROJECT_NAME})
 
 install(DIRECTORY neon DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${DASHED_PROJECT_NAME})
+install(DIRECTORY oxygen DESTINATION ${CMAKE_INSTALL_PREFIX}/share/${DASHED_PROJECT_NAME})
